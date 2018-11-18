@@ -1,3 +1,5 @@
 pekka;akkep
 jukka;akkuj
 roopen;password
+roopeniemi;salasana
+anewuser;salasana1

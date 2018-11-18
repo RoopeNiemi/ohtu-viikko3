@@ -14,12 +14,11 @@ public class ServerRule extends ExternalResource {
     public ServerRule(int port) {
         this.port = port;
     }
-    
+
     @Before
     public void initDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Documents\\chromedriver_win32");
+        System.setProperty("webdriver.chrome.driver", "./chromedriver");
     }
-
     @Override
     protected void before() throws Throwable {
         Spark.port(port);

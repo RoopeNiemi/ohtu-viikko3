@@ -1,1 +1,7 @@
-/WebLogin/.nb-gradle/
+/.nb-gradle
+/.gradle
+build/
+Kurssistatistiikka/.gradle
+Kurssistatistiikka/.nb-gradle/
+WebLogin/.nb-gradle
+WebLogin/.gradle
